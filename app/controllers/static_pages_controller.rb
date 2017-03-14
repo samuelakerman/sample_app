@@ -4,4 +4,8 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+  def prueba
+  	render html: "senda lacra"
+  end
+
 end
